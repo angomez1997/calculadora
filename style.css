@@ -1,0 +1,129 @@
+body{
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.container{
+    background-color: #F8F8FF;
+    padding: 50px;
+    width: 50%;
+    margin-left: 200px;
+}
+.container-uno{
+    background-color: #F8F8FF;
+    padding: 50px;
+    width: 50%;
+    
+
+}
+#total{
+    margin-top: 2px;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    
+}
+#resultado{
+    font-size: 60px;
+    color: #32CD32;
+    text-align: center;
+}
+
+
+.titulo{
+    width: 32.5%;
+    background-color: #32CD32;
+    color: white;
+    margin-left: 200px;
+
+}
+.parrafo-1{
+    text-align: center;
+    color: gray;
+    opacity: 0.4;
+    margin: 10px;
+    font-size: 21px;
+}
+
+    
+    
+
+.edad{
+    margin: 40px 10px 40px 9px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+}
+.peso{
+    margin: 10px 10px 40px 10px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+}
+.altura{
+    margin: 5px 5px 40px 1px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 150px;
+}
+.kilo{
+    color:#32CD32;
+    font-size: 20px;
+    font-weight: bold;
+}
+.metros{
+    font-weight: bold;
+    color:#32CD32;
+    font-size: 20px;
+
+}
+#boton{
+    background-color: #32CD32;
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 80%;
+    margin-left: 10px;
+    
+}
+.rango{
+    text-align: center;
+}
+
+.border{
+    border: gray solid 2px;
+    
+   
+
+    
+}
+#valor{
+    background: linear-gradient();
+    width: 100%;
+    -webkit-appearance: none;
+    background-image: linear-gradient(90deg, blue ,green , yellow , red );
+
+   
+}
+.img-1{
+    opacity: 0.4;
+    vertical-align: middle;
+    
+}
+.centrar{
+ 
+    margin-left: 10px;
+    color: gray;
+    
+}
+.img-uno{
+    vertical-align: middle;
+}
+
+
+

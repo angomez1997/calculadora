@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Calculadora Imc</title>
+</head>
+<header>
+    <div class="titulo">
+        <h1>CALCULADORA IMC</h1>
+
+    </div>
+    
+</header>
+<body>
+    <main class="main">
+        <div class="container">
+            <p class="parrafo-1">Descubre su indice de masa corporal</p>
+            <form>
+                <label class = "sexo">Sexo:</label>
+                <img class="img-1"src="https://img.icons8.com/ios-filled/48/000000/standing-woman.png"/>|
+                <img class="img-1"src="https://img.icons8.com/ios-filled/48/000000/men-age-group-4.png"/><br/>
+                <label for="Edad">Edad:</label>
+                <input class="edad"type="text" required=""><br/>
+                <label for="Peso">Peso:</label>
+                <input class="peso"type="number" required=""><label class="kilo">Kg</label><br/>
+                <label for="altura">Altura:</label>
+                <input class="altura"type="number" required=""><label class="metros"> M </label><br/>
+                <button id="boton" type="submit">CALCULAR IMC</button>
+
+            </form>
+        </div>
+        <div class="container-uno">
+            <p>Resultado:<span id ="total"></span></p>
+            <h1 id="resultado">0</h1>
+            <input id="valor" type="range" value="0" onchange="convertir()">
+            <hr/>
+            <P class="rango">Peso Ideal: 50-68(KG)</P>
+            <section class="border">
+                <img class ="img-uno"src="https://img.icons8.com/color/48/000000/filled-circle.png"/><label class="centrar">Bajo peso</label><br/>
+                <img class ="img-uno"src="https://img.icons8.com/fluency/48/000000/blockly-light-green.png"/><label class="centrar">Saludable</label><br/>
+                <img class ="img-uno"src="https://img.icons8.com/color/48/000000/cloud-firestore.png"/><label class="centrar">Exceso de Peso</label><br/>
+                <img class ="img-uno"src="https://img.icons8.com/color/48/000000/bookmark-ribbon--v1.png"/><label class="centrar">Obeso</label>
+
+            </section>
+            <div id="output">
+
+            </div>
+
+
+            
+
+
+        </div>
+        
+    </main>
+
+
+
+
+    <script src="../script/script.js"></script>
+    
+</body>
+</html>
